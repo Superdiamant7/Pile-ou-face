@@ -35,6 +35,6 @@ h1 {
     font-size: 200%;
     transition: transform, 400ms;
     &:hover {
-        transform: scale(1.15);
+        transform: scale(1.20);
     }
 }
