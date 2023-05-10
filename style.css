@@ -1,0 +1,40 @@
+.pile {
+    position: absolute;
+    top: 25%; 
+    left: 40%;
+    width: 20%;
+}
+
+.face {
+    position: absolute; 
+    top: 25%; 
+    left: 40%;
+    width: 23%;
+}
+
+.result {
+    font-size: 500%; 
+    position: absolute; 
+    top: 60%; 
+    left: 46.5%; 
+}
+
+h1 {
+    position: relative; 
+    top: 40%; 
+    left: 38%; 
+    font-size: 500%;
+}
+
+.lancer {
+    position: absolute; 
+    top: 85%; 
+    left: 45%; 
+    width: 10%; 
+    height: 5%; 
+    font-size: 200%;
+    transition: transform, 400ms;
+    &:hover {
+        transform: scale(1.15);
+    }
+}
